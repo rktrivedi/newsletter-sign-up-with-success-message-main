@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+}
+.box {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.data {
+  margin-top: 10px;
+  padding: 0px;
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.featureAll {
+  display: flex;
+  flex-direction: column;
+  gap: -5px;
+}
+.fetures {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+.iconImg {
+  width: 20px;
+  height: 20px;
+}
+.imageBox {
+  width: 250px;
+  height: 300px;
+}
+.mainImg {
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 10px;
+}
